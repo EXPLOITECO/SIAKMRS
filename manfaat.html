@@ -3,31 +3,22 @@
 
 <head>
     <title>Layout</title>
-    <style>
-        .card {
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            margin: 20px;
-            text-align: center;
-            background-color: #f5f5f5;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
-<body style="background-color: #6EB5FF">
-    <table align="center" border="0" width="900px">
+<body style="background-color: #6EB5FF; margin: 0;"> 
+    <table align="center" border="0" width="1000px"
+        style="background-color: #fff; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);">
         <!--header-->
         <tr bgcolor="cyan">
-            <td colspan="2" height="250px">
-                <img src="image/banner donor darah.png" alt='Logo_banner' width="1000" height="250">
+            <td colspan="2" height="250px" style="text-align: center;">
+                <img src="image/banner donor darah.png" alt='Logo_banner' style="width: 100%;">
             </td>
         </tr>
 
         <!--body-->
         <tr>
-            <td width="700px" height="400px" bgcolor="ACE7FF" valign="top">
+            <td width="700px" height="400px" bgcolor="ACE7FF" valign="top" style="padding: 20px;">
                 <!--kolom body-->
                 <table border="0" width="100%">
                     <tr bgcolor="yellow">
@@ -43,8 +34,10 @@
                     <h2>DONOR DARAH</h2>
                 </center>
 
-                <div class="card">
-                    <h3>Manfaat Donor Darah</h3>
+                <div class="card"
+                    style="background-color: #fff; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); padding: 20px; margin: 20px; text-align: center;">
+                    <h3>MANFAAT</h3>
+                    <img src="image/ketentuan.jpg" alt="Nama Gambar" style="width: 300px;">
                     <p align="left">
                         Donor darah memiliki manfaat yang sangat penting bagi penerima dan pendonor. Beberapa manfaat
                         dari donor darah antara lain:
@@ -61,45 +54,43 @@
                         Donor darah bukan hanya tindakan penyelamatan nyawa, tetapi juga memberikan manfaat kesehatan
                         yang signifikan bagi pendonor sendiri.
                     </p>
+                    
                 </div>
             </td>
             <td align="center" width="200px" bgcolor="85E3FF">
-                <marquee>AYO DONOR DARAH!!</marquee>
-                <table>
-                    <hr width="250">
-                    <hr width="250">
-                    <tr>
-                        <td bgcolor="white" width="200" height="50" align="center" valign="middle">
-                            <a href="https://www.alodokter.com/memahami-karakteristik-golongan-darah-a-b-ab-dan-o">GOLONGAN
-                                DARAH</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td bgcolor="white" width="200" height="50" align="center" valign="middle">
-                            <a href="https://www.halodoc.com/kesehatan/transfusi-darah">TRANFUSI DARAH</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td bgcolor="white" width="200" height="50" align="center" valign="middle">
-                            <a
-                                href="https://www.regulasip.id/book/5018/read#:~:text=PERATURAN%20MENTERI%20KESEHATAN%20REPUBLIK%20INDONESIA,TENTANG%20STANDAR%20PELAYANAN%20TRANSFUSI%20DARAH">UU
-                                TRANFUSI DARAH</a>
-                        </td>
-                    </tr>
-                </table>
-                <hr width="250">
-                <hr width="250">
+                <marquee style="color: #fff;">AYO DONOR DARAH!! </marquee>
+                <div style="background-color: #fff; padding: 20px; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); margin-top: 20px;">
+                    <hr width="80%" style="margin: 0 auto;">
+                    <a href="https://www.alodokter.com/memahami-karakteristik-golongan-darah-a-b-ab-dan-o" style="display: block; background-color: #85E3FF; padding: 10px; text-align: center; text-decoration: none; color: #000;">GOLONGAN DARAH</a>
+                    <hr width="80%" style="margin: 0 auto;">
+                    <a href="https://www.halodoc.com/kesehatan/transfusi-darah" style="display: block; background-color: #85E3FF; padding: 10px; text-align: center; text-decoration: none; color: #000;">TRANFUSI DARAH</a>
+                    <hr width="80%" style="margin: 0 auto;">
+                    <a href="https://www.regulasip.id/book/5018/read#:~:text=PERATURAN%20MENTERI%20KESEHATAN%20REPUBLIK%20INDONESIA,TENTANG%20STANDAR%20PELAYANAN%20TRANSFUSI%20DARAH" style="display: block; background-color: #85E3FF; padding: 10px; text-align: center; text-decoration: none; color: #000;">UU TRANFUSI DARAH</a>
+                </div>
+                
+                <!-- Tautan Media Sosial dan Ikon -->
+                <div style="margin-top: 20px; text-align: center;">
+                    <a href="https://www.facebook.com/akun-facebook-anda" style="text-decoration: none; margin: 10px;">
+                        <i class="fab fa-facebook" style="font-size: 24px;"></i>
+                    </a>
+                    <a href="https://www.twitter.com/akun-twitter-anda" style="text-decoration: none; margin: 10px;">
+                        <i class="fab fa-twitter" style="font-size: 24px;"></i>
+                    </a>
+                    <a href="https://www.instagram.com/akun-instagram-anda" style="text-decoration: none; margin: 10px;">
+                        <i class="fab fa-instagram" style="font-size: 24px;"></i>
+                    </a>
+                </div>
             </td>
         </tr>
 
         <!--footer-->
         <tr bgcolor="cyan">
-            <td colspan="2" height="120px">
-                <table border="0">
+            <td colspan="2" height="150px">
+                <table border="0" style="width: 100%;">
                     <tr>
-                        <td>
-                            <h4><img src="image/logo donor darah.png " alt='Logo_donor_darah' width="250" height="150">
-                            </h4>
+                        <td style="text-align: center;">
+                            <img src="image/logo donor darah.png " alt='Logo_donor_darah'
+                                style="width: 250px; height: 150px;">
                         </td>
                         <td>
                             <iframe
